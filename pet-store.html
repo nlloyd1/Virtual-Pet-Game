@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel='stylesheet' href='stylesheet.css'>
+
+    </head>
+    <body>
+        <div id='store-dashboard'>
+            <h1>Welcome to the Pet Store</h1>
+            <h3>Select an egg</h3>
+            <div id='eggs'>
+                <img src='Images\egg1.png' id='egg1' class='egg-carton' alt='green egg with purple spots' onclick='selectEgg()'>
+                <img src='Images\egg2.png' id='egg2' class='egg-carton' alt='blue egg with orange spots' onclick='selectEgg()'>
+            </div>
+            <h3>Choose a name</h3>
+            <input id='assign-pet-name' type='text' placeholder='Name'>
+            <button onclick='adoptPet()'>Adopt</button>
+        </div>
+    </body>
+    <script src='script.js'></script>
+</html>
